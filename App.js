@@ -1,8 +1,9 @@
 
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Dimensions } from 'react-native';
 
 import SwiperComponent from './Components/SwiperComponent';
+import BottomNavigationBar from './Components/BottomNavigationBar';
 
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
   return (
     <View style={styles.container}>
      <SwiperComponent/>
+     <BottomNavigationBar/>
     </View>
   );
 }
